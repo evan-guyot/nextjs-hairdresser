@@ -7,7 +7,7 @@ import {
 const aboutMeFacts = [
   "Was born in Chicago in 1984, whoops.. I’m getting old.. 😆",
   "I’m a life lover, I cherish each moment of my life as if it was the last one ! 😍",
-  "You won’t get bored with me ! Haha I have so much energy that I’ll wake up you better than a cup of coffee 😇",
+  "You won’t get bored with me ! Haha I have so much energy that I’ll wake up you better than a cup of coffee would 😇",
 ];
 
 export default function Home() {
@@ -38,7 +38,7 @@ export default function Home() {
                 <ChevronRightIcon
                   height={16}
                   width={16}
-                  className="font-bold text-pink-500/75 min-w-8"
+                  className="font-bold text-pink-500/75 min-w-6 md:min-w-8"
                 />{" "}
                 <p className="text-gray-600">{fact}</p>
               </li>
